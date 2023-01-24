@@ -18,7 +18,7 @@ class Person
 void display()
 	{
 
-		System.out.println(" , Name= "+name+ ", Age= "+age+ ", Nid ="+Nid+ " , Religion= 			"+religion+ " , Gender= "+gender);
+		System.out.println(" , Name= "+name+ ", Age= "+age+ ", Nid ="+Nid+ " , Religion= "+religion+ " , Gender= "+gender);
 	}
 
 }
