@@ -17,6 +17,7 @@ class Person
 	}
 
 void display()
+
 	{
 
 		System.out.println(" , Name= "+name+ ", Age= "+age+ ", Nid ="+Nid+ " , Religion= "+religion+ " , Gender= "+gender);
@@ -25,6 +26,7 @@ void display()
 }
 
 class Teacher extends Person
+
 {
     int exp=0;
 
@@ -47,6 +49,7 @@ void display()
 class Student extends Person
 
 {
+
    String course=null;
 
 	Student(String n, int a,int N,String r,String g, String c)
@@ -66,7 +69,9 @@ void display()
 }
 
 class checkMain
+
 {
+
 	public static void main(String args[])
 
 
