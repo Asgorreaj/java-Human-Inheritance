@@ -1,11 +1,3 @@
-public class Main
-{
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
-}
-import java.lang.*;
-*/
 class Person
 {
 	String name = null;
@@ -22,9 +14,11 @@ class Person
 		religion=r;
 		gender=g;
 	}
+
 void display()
 	{
-		System.out.println(" , Name= "+name+ ", Age= "+age+ ", Nid ="+Nid+ " , Religion= "+religion+ " , Gender= "+gender);
+
+		System.out.println(" , Name= "+name+ ", Age= "+age+ ", Nid ="+Nid+ " , Religion= 			"+religion+ " , Gender= "+gender);
 	}
 
 }
@@ -32,12 +26,16 @@ void display()
 class Teacher extends Person
 {
     int exp=0;
+
 	Teacher(String n, int a,int N,String r,String g, int e)
+
 	{
 		super( n, a, N, r, g);
 		exp=e;
 	}
+
 void display()
+
 {
 	super.display();
 	System.out.println(",Experience= "+exp);
@@ -46,14 +44,19 @@ void display()
 }
 
 class Student extends Person
+
 {
    String course=null;
+
 	Student(String n, int a,int N,String r,String g, String c)
+
 	{
 		super( n, a, N, r, g);
 		course=c;
 	}
+
 void display()
+
 {
 	super.display();
 	System.out.println(" COURSE="+course);
@@ -64,6 +67,8 @@ void display()
 class checkMain
 {
 	public static void main(String args[])
+
+
 	{
 		Person p1= new Person("Ajgor,",24 ,20439992,"ISLAM","Male");
 		p1.display();
@@ -75,10 +80,6 @@ class checkMain
 
 		Student s1= new Student("SUDIPTO",20,2041151,"HINDU","Male","ENGLISH");
 		s1.display();
-
-
-
-
 
 	}
 }
