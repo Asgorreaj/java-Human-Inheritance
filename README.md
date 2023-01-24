@@ -1,4 +1,5 @@
 class Person
+
 {
 	String name = null;
 	int age =0;
